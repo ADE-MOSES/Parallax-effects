@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Georgia;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    
+    
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    
+}
+.navbar ul li {
+    list-style: none;
+    padding-top: 30px;
+
+    
+}
+.navbar h1{
+    margin-right: 40%;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.intro {
+    text-align: center;
+    background-image: url(./pic.jpeg.jpg);
+    background-size: cover;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: no-repeat;
+    background-size: cover;
+
+}
+.intro p{
+    margin-bottom: 70px;
+}
+.intro_1{
+    color: orange;
+    padding-top: 10%;
+    padding-bottom: 20px;
+}
+.intro_2{
+    color: white;
+    padding-bottom: 60px;
+    padding-top: 30px;
+}
+.about{
+    display: flex;
+
+    color: white;
+}
+.about_1{
+    background-color: black;
+    padding-left: 50px;
+    padding-top: 100px;
+}
+.about_1 h3{
+    padding-bottom: 50px;
+}
+.about_1 p{
+    padding-right: 250px;
+    padding-bottom: 100px;
+}
+.about_2{
+    background-color: orange;
+    margin-right: 450px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.reason {
+    background-image: url(./pic.jpeg.jpg);
+    background-size: cover;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.reason_1 h3{
+    padding-top: 80px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.reasonb{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 40px;
+}
